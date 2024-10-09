@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63CB82AC2CB714B5008EFFDB /* Meteo_LatviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB82AB2CB714B5008EFFDB /* Meteo_LatviaApp.swift */; };
+		63CB82AE2CB714B5008EFFDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB82AD2CB714B5008EFFDB /* ContentView.swift */; };
+		63CB82B02CB714B7008EFFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CB82AF2CB714B7008EFFDB /* Assets.xcassets */; };
+		63CB82B42CB714B7008EFFDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CB82B32CB714B7008EFFDB /* Preview Assets.xcassets */; };
+		63CB82BE2CB714B8008EFFDB /* Meteo_LatviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB82BD2CB714B8008EFFDB /* Meteo_LatviaTests.swift */; };
+		63CB82C82CB714B8008EFFDB /* Meteo_LatviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB82C72CB714B8008EFFDB /* Meteo_LatviaUITests.swift */; };
+		63CB82CA2CB714B8008EFFDB /* Meteo_LatviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB82C92CB714B8008EFFDB /* Meteo_LatviaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63CB82BA2CB714B8008EFFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CB82A02CB714B5008EFFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CB82A72CB714B5008EFFDB;
+			remoteInfo = "Meteo Latvia";
+		};
+		63CB82C42CB714B8008EFFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CB82A02CB714B5008EFFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CB82A72CB714B5008EFFDB;
+			remoteInfo = "Meteo Latvia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63CB82A82CB714B5008EFFDB /* Meteo Latvia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meteo Latvia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CB82AB2CB714B5008EFFDB /* Meteo_LatviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteo_LatviaApp.swift; sourceTree = "<group>"; };
+		63CB82AD2CB714B5008EFFDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63CB82AF2CB714B7008EFFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63CB82B12CB714B7008EFFDB /* Meteo_Latvia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meteo_Latvia.entitlements; sourceTree = "<group>"; };
+		63CB82B32CB714B7008EFFDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63CB82B92CB714B8008EFFDB /* Meteo LatviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meteo LatviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CB82BD2CB714B8008EFFDB /* Meteo_LatviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteo_LatviaTests.swift; sourceTree = "<group>"; };
+		63CB82C32CB714B8008EFFDB /* Meteo LatviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meteo LatviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CB82C72CB714B8008EFFDB /* Meteo_LatviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteo_LatviaUITests.swift; sourceTree = "<group>"; };
+		63CB82C92CB714B8008EFFDB /* Meteo_LatviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteo_LatviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63CB82A52CB714B5008EFFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CB82B62CB714B8008EFFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CB82C02CB714B8008EFFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63CB829F2CB714B5008EFFDB = {
+			isa = PBXGroup;
+			children = (
+				63CB82AA2CB714B5008EFFDB /* Meteo Latvia */,
+				63CB82BC2CB714B8008EFFDB /* Meteo LatviaTests */,
+				63CB82C62CB714B8008EFFDB /* Meteo LatviaUITests */,
+				63CB82A92CB714B5008EFFDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63CB82A92CB714B5008EFFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CB82A82CB714B5008EFFDB /* Meteo Latvia.app */,
+				63CB82B92CB714B8008EFFDB /* Meteo LatviaTests.xctest */,
+				63CB82C32CB714B8008EFFDB /* Meteo LatviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63CB82AA2CB714B5008EFFDB /* Meteo Latvia */ = {
+			isa = PBXGroup;
+			children = (
+				63CB82AB2CB714B5008EFFDB /* Meteo_LatviaApp.swift */,
+				63CB82AD2CB714B5008EFFDB /* ContentView.swift */,
+				63CB82AF2CB714B7008EFFDB /* Assets.xcassets */,
+				63CB82B12CB714B7008EFFDB /* Meteo_Latvia.entitlements */,
+				63CB82B22CB714B7008EFFDB /* Preview Content */,
+			);
+			path = "Meteo Latvia";
+			sourceTree = "<group>";
+		};
+		63CB82B22CB714B7008EFFDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63CB82B32CB714B7008EFFDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63CB82BC2CB714B8008EFFDB /* Meteo LatviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				63CB82BD2CB714B8008EFFDB /* Meteo_LatviaTests.swift */,
+			);
+			path = "Meteo LatviaTests";
+			sourceTree = "<group>";
+		};
+		63CB82C62CB714B8008EFFDB /* Meteo LatviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63CB82C72CB714B8008EFFDB /* Meteo_LatviaUITests.swift */,
+				63CB82C92CB714B8008EFFDB /* Meteo_LatviaUITestsLaunchTests.swift */,
+			);
+			path = "Meteo LatviaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63CB82A72CB714B5008EFFDB /* Meteo Latvia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CB82CD2CB714B8008EFFDB /* Build configuration list for PBXNativeTarget "Meteo Latvia" */;
+			buildPhases = (
+				63CB82A42CB714B5008EFFDB /* Sources */,
+				63CB82A52CB714B5008EFFDB /* Frameworks */,
+				63CB82A62CB714B5008EFFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meteo Latvia";
+			productName = "Meteo Latvia";
+			productReference = 63CB82A82CB714B5008EFFDB /* Meteo Latvia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63CB82B82CB714B8008EFFDB /* Meteo LatviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CB82D02CB714B8008EFFDB /* Build configuration list for PBXNativeTarget "Meteo LatviaTests" */;
+			buildPhases = (
+				63CB82B52CB714B8008EFFDB /* Sources */,
+				63CB82B62CB714B8008EFFDB /* Frameworks */,
+				63CB82B72CB714B8008EFFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CB82BB2CB714B8008EFFDB /* PBXTargetDependency */,
+			);
+			name = "Meteo LatviaTests";
+			productName = "Meteo LatviaTests";
+			productReference = 63CB82B92CB714B8008EFFDB /* Meteo LatviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63CB82C22CB714B8008EFFDB /* Meteo LatviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CB82D32CB714B8008EFFDB /* Build configuration list for PBXNativeTarget "Meteo LatviaUITests" */;
+			buildPhases = (
+				63CB82BF2CB714B8008EFFDB /* Sources */,
+				63CB82C02CB714B8008EFFDB /* Frameworks */,
+				63CB82C12CB714B8008EFFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CB82C52CB714B8008EFFDB /* PBXTargetDependency */,
+			);
+			name = "Meteo LatviaUITests";
+			productName = "Meteo LatviaUITests";
+			productReference = 63CB82C32CB714B8008EFFDB /* Meteo LatviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CB82A02CB714B5008EFFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					63CB82A72CB714B5008EFFDB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					63CB82B82CB714B8008EFFDB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 63CB82A72CB714B5008EFFDB;
+					};
+					63CB82C22CB714B8008EFFDB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 63CB82A72CB714B5008EFFDB;
+					};
+				};
+			};
+			buildConfigurationList = 63CB82A32CB714B5008EFFDB /* Build configuration list for PBXProject "Meteo Latvia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63CB829F2CB714B5008EFFDB;
+			productRefGroup = 63CB82A92CB714B5008EFFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CB82A72CB714B5008EFFDB /* Meteo Latvia */,
+				63CB82B82CB714B8008EFFDB /* Meteo LatviaTests */,
+				63CB82C22CB714B8008EFFDB /* Meteo LatviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63CB82A62CB714B5008EFFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB82B42CB714B7008EFFDB /* Preview Assets.xcassets in Resources */,
+				63CB82B02CB714B7008EFFDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CB82B72CB714B8008EFFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CB82C12CB714B8008EFFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CB82A42CB714B5008EFFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB82AE2CB714B5008EFFDB /* ContentView.swift in Sources */,
+				63CB82AC2CB714B5008EFFDB /* Meteo_LatviaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CB82B52CB714B8008EFFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB82BE2CB714B8008EFFDB /* Meteo_LatviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CB82BF2CB714B8008EFFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB82CA2CB714B8008EFFDB /* Meteo_LatviaUITestsLaunchTests.swift in Sources */,
+				63CB82C82CB714B8008EFFDB /* Meteo_LatviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63CB82BB2CB714B8008EFFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CB82A72CB714B5008EFFDB /* Meteo Latvia */;
+			targetProxy = 63CB82BA2CB714B8008EFFDB /* PBXContainerItemProxy */;
+		};
+		63CB82C52CB714B8008EFFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CB82A72CB714B5008EFFDB /* Meteo Latvia */;
+			targetProxy = 63CB82C42CB714B8008EFFDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63CB82CB2CB714B8008EFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63CB82CC2CB714B8008EFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		63CB82CE2CB714B8008EFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Meteo Latvia/Meteo_Latvia.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meteo Latvia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.kristapsbe.Meteo-Latvia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63CB82CF2CB714B8008EFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Meteo Latvia/Meteo_Latvia.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meteo Latvia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.kristapsbe.Meteo-Latvia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63CB82D12CB714B8008EFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.kristapsbe.Meteo-LatviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteo Latvia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meteo Latvia";
+			};
+			name = Debug;
+		};
+		63CB82D22CB714B8008EFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.kristapsbe.Meteo-LatviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteo Latvia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meteo Latvia";
+			};
+			name = Release;
+		};
+		63CB82D42CB714B8008EFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.kristapsbe.Meteo-LatviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meteo Latvia";
+			};
+			name = Debug;
+		};
+		63CB82D52CB714B8008EFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.kristapsbe.Meteo-LatviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meteo Latvia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63CB82A32CB714B5008EFFDB /* Build configuration list for PBXProject "Meteo Latvia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CB82CB2CB714B8008EFFDB /* Debug */,
+				63CB82CC2CB714B8008EFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CB82CD2CB714B8008EFFDB /* Build configuration list for PBXNativeTarget "Meteo Latvia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CB82CE2CB714B8008EFFDB /* Debug */,
+				63CB82CF2CB714B8008EFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CB82D02CB714B8008EFFDB /* Build configuration list for PBXNativeTarget "Meteo LatviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CB82D12CB714B8008EFFDB /* Debug */,
+				63CB82D22CB714B8008EFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CB82D32CB714B8008EFFDB /* Build configuration list for PBXNativeTarget "Meteo LatviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CB82D42CB714B8008EFFDB /* Debug */,
+				63CB82D52CB714B8008EFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63CB82A02CB714B5008EFFDB /* Project object */;
+}
